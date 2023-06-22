@@ -8,6 +8,7 @@ import { useState } from 'react'
 const Products = () => {
 
   //useParams hook returns an object, so in order to access the actual category, I first assign the object to an intermediate variable
+  //then within that variable, I access the actual param I'm looking for
   const params = useParams();
   const category = params.category;
 
@@ -25,8 +26,8 @@ const Products = () => {
       <Featured/>
       <Navbar/>
       <h2 className='text-black font-black text-2xl sm:text-3xl mt-8 mb-2 text-left ml-5 uppercase'>Search through our catalog: </h2>
-      <div className='flex flex-row gap-2 text-center justify-around text-lg sm:text-xl'>
-        <div className='flex gap-2 items-center'>
+      <div className='flex flex-row gap-2 text-center justify-around text-lg sm:text-xl h-screen'>
+        <div className='flex gap-2 items-center mt-2'>
           <label htmlFor="">Category</label>
           <select onChange={handleFilter} defaultValue={"default"} name="category" id="" className='text-black/50 border-2 border-transparent rounded-md hover:border-black/50'>
             <option value={"default"} disabled>Choose a category</option>

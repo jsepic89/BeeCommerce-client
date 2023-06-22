@@ -2,6 +2,12 @@ import electronicsImage from '../images/electronics.jpg'
 import jewelryImage from '../images/jewelry.jpg'
 import mensClothing from '../images/mensClothing.jpg'
 import womensClothing from '../images/womensClothing.jpg'
+import appleWatch from '../images/applewatch.jpg'
+import menJacket from '../images/menJacket.jpg'
+import crocs from '../images/crocs.jpg'
+import argentinaJersey from '../images/argentinaJersey.jpg'
+import gamerChair from '../images/gamerChair.jpg'
+import s23Ultra from '../images/s23Ultra.jpg'
 
 const sliderData = [
     {
@@ -57,28 +63,28 @@ const categories = [
 
 const topProducts = [
     {
-      id:1,
-      image:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      id:'6490c27c29df3251f2cb6349',
+      image:appleWatch,
     },
     {
-      id:3,
-      image:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      id:'6490bc51b3db66024e4f50a0',
+      image:menJacket,
     },
     {
-      id:4,
-      image:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      id:'6490c30129df3251f2cb6351',
+      image:crocs,
     },
     {
-      id:5,
-      image:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      id:'6490c32829df3251f2cb6353',
+      image:argentinaJersey,
     },
     {
-      id:6,
-      image:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      id:'6490c35529df3251f2cb6355',
+      image:gamerChair,
     },
     {
-      id:8,
-      image:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+      id:'6490c3a129df3251f2cb6357',
+      image:s23Ultra,
     },
   ]
 

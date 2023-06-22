@@ -2,10 +2,13 @@ import beeLogo from '../images/beeLogo.png'
 import githubLogo from '../assets/icons/githubLogo.png'
 import linkedin from '../assets/icons/linkedin.png'
 import portfolio from '../assets/icons/portfolio.png'
+import { useState, useEffect } from 'react'
 
 const Footer = () => {
+
+
   return (
-    <footer  className="text-white flex sm:flex-row sm:justify-between bg-zinc-900 p-1 w-screen min-w-fit max-w-screen flex-wrap items-center gap-x-4 justify-center">
+    <footer  className={'text-white flex sm:flex-row sm:justify-between bg-zinc-900 p-1 w-[100%] flex-wrap items-center gap-x-4 justify-center bottom-0'}>
         <div className='flex gap-2 items-center ml-2'>
             <p className='text-xl p-2'>BeeCommerce</p>
         </div>

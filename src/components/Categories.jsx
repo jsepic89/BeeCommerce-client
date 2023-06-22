@@ -4,7 +4,7 @@ import { categories } from '../assets/data'
 
 const Categories = () => {
   return (
-    <div className='flex flex-wrap p-3 gap-1 max-w-screen'>
+    <div className='flex flex-wrap gap-1 max-w-screen'>
         {categories.map( (category) => {
             return (
                 <div key={category.id} className="flex flex-col justify-center flex-1 relative min-w-[200px] max-h-[80%] object-cover">

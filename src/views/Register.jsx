@@ -4,7 +4,9 @@ import beeLogo from '../images/beeLogo.png'
 const Register = () => {
   return (
     <div className='flex flex-col items-center justify-center h-[70vh] sm:h-[80vh]'>
-      <img src={beeLogo} className='w-[40px]'/>
+      <Link to={'/'}>
+        <img src={beeLogo} className='w-[40px]'/>
+      </Link>
       <div className="w-[70%] sm:w-[50%] h-fit p-4  bg-zinc-400/50 min-w-fit rounded-md border-2 border-slate-400">
           <div className="flex flex-col w-full h-full justify-center items-center">
             <h1 className="mb-4 text-xl sm:text-2xl md:text-3xl">Create an account</h1>

@@ -13,7 +13,7 @@ const Cart = () => {
     <div>
         <Featured/>
         <Navbar/>
-        <div className='p-5'>
+        <div className='p-5 h-screen'>
             <h2 className="text-xl sm:text-3xl md:text-4xl font-medium mb-4 text-center">Items in your cart:</h2>
             <div className='flex flex-col sm:flex-row gap-2 justify-around'>
                 <div id='info' className='flex flex-col gap-3 self-center'>

@@ -21,8 +21,8 @@ const SingleProduct = () => {
     useEffect(() => {
       const getProduct = async () => {
         try {
-            const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/products?id=${productId}`)
-            setProduct(res.data[0])
+            const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/products/${productId}`)
+            setProduct(res.data)
         } catch (error) {
             console.log(error)
         }
@@ -44,7 +44,7 @@ const SingleProduct = () => {
         <Navbar/>
         <div className="flex max-w-[100%]">
             <div className="flex-1 p-4">
-                <img className="w-full h-[85%] object-cover rounded-lg" src="https://www.kindpng.com/picc/m/22-223525_womens-fashion-transparent-background-hd-png-download.png" alt="" />
+                <img className="w-full h-[85%] object-cover rounded-lg" src={product?.image} alt="" />
             </div>
             <div className="flex-1 flex-col p-4 m-4">
                 <h2 className="text-xl sm:text-3xl md:text-4xl font-medium mb-2">{product?.title}</h2>

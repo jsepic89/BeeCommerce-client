@@ -22,7 +22,7 @@ const Slider = () => {
     };
 
   return (
-    <div className='max-w-screen relative flex mx-auto mt-0 min-w-fit'>
+    <div className='max-w-[100%] relative flex mx-0 mt-0 min-w-fit'>
         {sliderData.map((slide, index) => (
             <div key={slide.id} className={`max-w-screen items-center flex flex-col sm:flex-row mt-0 min-w-fit ${index != slideIndex ? "hidden" : "" }`}>
                 <div className='flex-1 md:p-2'>

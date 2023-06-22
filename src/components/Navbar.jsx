@@ -21,8 +21,8 @@ const Navbar = () => {
     }
 
   return (
-    <header className='min-w-fit'>
-        <div className='text-white flex sm:flex-row sm:justify-between bg-zinc-900 p-3 w-screen min-w-fit flex-wrap items-center gap-x-10 mx-0 my-0 justify-center'>
+    <header className='min-w-fit max-w-screen'>
+        <div className='text-white flex sm:flex-row sm:justify-between bg-zinc-900 p-3 w-[100%] flex-wrap items-center gap-x-10 justify-center'>
             <Link to={'/'}>
                 <div className='flex gap-2 items-center'>
                     <img src={beeLogo} className="w-8"/>
